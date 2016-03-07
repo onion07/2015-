@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,input{margin:0;padding:0; list-style:none;outline:none; }
+body{background:url(../images/bg.jpg) center center no-repeat;background-size:cover;background-attachment:fixed;height:100%;margin:0;padding:0;overflow:hidden;}
+
+.wrap{width:840px;height:640px;background:url(../images/raffle_bg.png) no-repeat;margin:8% auto 0 auto;position:relative;}
+.wrap h1{font-size:40px;color:#fff;font-family:"Microsoft YaHei";text-align:center;line-height:76px;text-shadow:2px 3px 2px #962433;}
+.wopen {display: none;}
+.cur{ display: block;}
+.res{color:#e6384f;padding-top:15px;position:absolute;top:-210px;left:0;width:840px; text-align:center;font-size:60px;font-family:Arial, Helvetica, sans-serif;font-weight:700;}
+.res span ,.res em{display:inline-block;margin-right:40px;font-style:normal;}
+.main_bg{}
+.main{width:840px;height:300px;position:relative;margin:35px auto 0 auto;}
+.num_box{height:400px;width:724px;position:absolute;left:60px;top:0;z-index:8;overflow:hidden;text-align:center;}
+.num{background:url(../images/num.png) top center repeat-y;width:140px;height:182px;float:left;margin:46px 48px 0 48px;}
+.btn{background:url(../images/btn_start.png) 0 0 no-repeat;width:320px;height:109px;position:absolute;left:50%;bottom:20px;margin-left:-160px;cursor:pointer;clear:both;}
+.btn:hover{background-position:left bottom;}
+
+.prize-box{position:absolute;left:-260px;top:80px;width:300px; text-align:center;}
+.prize-box img{}
+.prize-box p{display: none;}
+.prize-box .cur{display: block;}
+.prize-box p{color:#bd854b;font-size:30px;font-family:"Microsoft YaHei";}
+
+.yun{background:url(../images/yun.png) center top no-repeat;height:200px;position:absolute;left:0;right:0;bottom:0;}
+
+
+@media screen 
+and (min-device-width:1400px)
+and (max-device-width:1440px){
+.yun{background:url(../images/yun.png) center top no-repeat;height:320px;position:absolute;left:0;right:0;bottom:0;}
+}
+
+@media screen 
+and (min-device-width:1600px)
+and (max-device-width:1960px){
+.yun{background:url(../images/yun.png) center top no-repeat;height:300px;position:absolute;left:0;right:0;bottom:0;}
+.wrap{width:840px;height:640px;background:url(../images/raffle_bg.png) no-repeat;margin:11% auto 0 auto;position:relative;}
+}
